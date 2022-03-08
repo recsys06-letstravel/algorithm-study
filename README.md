@@ -6,6 +6,7 @@
 - 내 branch로 바꾸기 : git switch 브랜치명
   - 브랜치 목록 보기 : git branch
 - git push origin 브랜치명
+
 ## 코드 리뷰 하기
 - Pull requests에 들어가서 Compare  & pull request
 - 혹은 New Pull request을 클릭하고 자기 branch에 들어가서 Compare  & pull request - Create pull request 클릭
