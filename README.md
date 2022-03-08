@@ -1,4 +1,4 @@
-# 💻 알고리즘 공부 💻
+# 🛫 여행가야조 알고리즘 스터디 🛫
 ## branch 만들기
 - git init
 - git clone https://github.com/recsys06-letstravel/algorithm-study.git
