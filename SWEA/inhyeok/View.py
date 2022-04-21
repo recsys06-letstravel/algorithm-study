@@ -10,14 +10,10 @@ for test_case in range(1, T + 1):
     apart_list = list(map(int, apart_list))
     result = 0
     for i in range(2,len(apart_list)-2):
-        # 왼 2 왼 1
-        right_max = max(apart_list[i+2], apart_list[i+1])
-        # 오 2 오 1
-        left_max = max(apart_list[i-2], apart_list[i-1])
-        total_max = max(right_max, left_max)
+        total_max = max(apart_list[i+2], apart_list[i+1], apart_list[i-2], apart_list[i-1])
         if apart_list[i] <= total_max:
             continue
         else:
             result += apart_list[i] - total_max
 
-    print('#', test_case ," ", result)
+    print(f'#{test_case}', result)
