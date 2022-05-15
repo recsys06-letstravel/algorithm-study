@@ -5,10 +5,10 @@ import sys
 
 max_count = 0
 
-def move_cost(board, start, end):
-
-
-def solve(board, position, case, y, x, cost):
+# def move_cost(board, start, end):
+#
+#
+# def solve(board, position, case, y, x, cost):
 
 
 
